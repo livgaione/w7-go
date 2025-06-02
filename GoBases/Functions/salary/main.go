@@ -13,12 +13,12 @@ func main() {
 	fmt.Println("Entre com a sua categoria (A, B ou C): ")
 	fmt.Scanf("%s", &category)
 
-	res := salary(hours, category)
+	res := Salary(hours, category)
 
 	fmt.Printf("Seu salário é de: %d\n", res)
 }
 
-func salary(hours int, category string) int {
+func Salary(hours int, category string) int {
 	var baseSalary int
 
 	switch category {

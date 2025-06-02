@@ -23,11 +23,11 @@ func main() {
 		sum += value
 	}
 
-	media := average(grade, sum)
+	media := Average(grade, sum)
 	fmt.Printf("A média das notas é: %d\n", media)
 }
 
-func average(grade int, value int) int {
+func Average(grade int, value int) int {
 
 	sum := value / grade
 
