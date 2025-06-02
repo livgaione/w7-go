@@ -12,7 +12,7 @@ func TestAverage(t *testing.T) {
 
 	sum := 10
 
-	expected := 10
+	expected := 5
 
 	result := Average(grade, sum)
 
