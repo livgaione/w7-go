@@ -24,7 +24,7 @@ func PrintStudents(list []Students) {
 		fmt.Printf("Sobrenome do aluno: %s\n", m.LastName)
 		fmt.Printf("ID do aluno: %d\n", m.Id)
 		fmt.Printf("Data de admissão do aluno: %s\n", m.Date)
-		fmt.Println("-------------")
+		fmt.Println("------------")
 	}
 }
 
